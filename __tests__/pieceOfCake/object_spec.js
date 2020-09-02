@@ -4,7 +4,7 @@ describe('for object', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expectedName = undefined;
+    const expectedName = 'Bob';
     // --end->
 
     expect(person.name).toEqual(expectedName);
@@ -16,8 +16,9 @@ describe('for object', () => {
     const person = { name: 'Bob' };
 
     // <--start
-    // Please write down the correct value. You should write the final result directly.
-    const expected = {};
+    // Please write down the correct value. You should write the final result directly.  
+    
+    const expected = undefined;
     // --end->
 
     expect(person.whatTheHellIsThat).toEqual(expected);
@@ -28,7 +29,7 @@ describe('for object', () => {
 
     // <--start
     // Please write a line of code to remove the `name` property.
-
+    delete person.name;
     // --end->
 
     expect(person.name).toBeUndefined();
