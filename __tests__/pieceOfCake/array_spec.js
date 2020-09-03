@@ -58,7 +58,7 @@ describe('for array', () => {
     expect(filtered).toEqual(expected);
   });
 
-  fit('should map array element to other value', () => {
+  it('should map array element to other value', () => {
     const numbers = [1, 2, 3, 4, 5];
     const mapped = numbers.map((n, i) => `Unit ${n} for element at index ${i}`);
 
@@ -77,7 +77,7 @@ describe('for array', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = undefined;
+    const expected = 15;
     // --end->
 
     expect(reduced).toEqual(expected);
